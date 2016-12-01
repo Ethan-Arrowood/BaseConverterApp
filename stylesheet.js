@@ -17,10 +17,10 @@ export const styles = StyleSheet.create({
   modal_header: {
     marginTop: 22
   },
-  menuButton: {
+  primaryButton: {
     color: '#0485A9'
   },
-  menButtonContainer: {
+  primaryButtonContainer: {
     borderColor: '#0485A9',
     borderWidth: 2,
     margin: 10,
@@ -37,5 +37,32 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     color: '#0485A9',
     marginBottom: 22
+  },
+  convertBody: {
+    flex: 0,
+    width: 300,
+    borderWidth: 1,
+    borderColor: '#0485A9',
+    borderStyle: 'solid',
+    padding: 15,
+    backgroundColor:'#EBF9FF',
+  },
+  convertBody_inner: {
+    padding: 5,
+    margin: 5
+  },
+  convertInput: {
+    height: 20,
+  },
+  textInputWrapper: {
+    borderStyle: 'solid',
+    borderColor: '#0485A9',
+    borderBottomWidth: 1
+  },
+  convertResult: {
+    paddingVertical: 5,
+    borderStyle: 'solid',
+    borderColor: '#0485A9',
+    borderBottomWidth: 1
   }
 });

@@ -10,8 +10,8 @@ export default class MenuButton extends Component {
   render () {
     return (
       <Button
-        style={styles.menuButton}
-        containerStyle={styles.menButtonContainer}
+        style={styles.primaryButton}
+        containerStyle={styles.primaryButtonContainer}
         onPress={this.props.onPress}
       >
         {this.props.title}
