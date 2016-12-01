@@ -3,11 +3,11 @@ import { View, Text } from 'react-native';
 
 import { styles } from './../stylesheet';
 
-import Convert from './Convert';
-import Arithmetic from './Arithmetic';
-import Algorithm from './Algorithm';
-import Creator from './Creator';
-import License from './License';
+import Convert from './Pages/Convert';
+import Arithmetic from './Pages/Arithmetic';
+import Algorithm from './Pages/Algorithm';
+import Creator from './Pages/Creator';
+import License from './Pages/License';
 
 export default class Menu extends Component {
   render() {
