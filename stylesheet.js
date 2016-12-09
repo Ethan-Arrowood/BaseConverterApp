@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -29,6 +28,12 @@ export const styles = StyleSheet.create({
     height: 45,
     bottom: 5
   },
+  lineBreak: {
+    flex: 0,
+    margin: 0,
+    borderColor: '#0485A9',
+    borderBottomWidth: 1
+  },
   title: {
     fontSize: 30,
     color: '#0485A9'
@@ -38,28 +43,43 @@ export const styles = StyleSheet.create({
     color: '#0485A9',
     marginBottom: 22
   },
-  convertBody: {
+  textInputWrapper: {
+    marginTop: 3,
+    borderStyle: 'solid',
+    borderColor: '#0485A9',
+    borderBottomWidth: 1
+  },
+  inputBody_outer: {
     flex: 0,
     width: 300,
     borderWidth: 1,
     borderColor: '#0485A9',
     borderStyle: 'solid',
     padding: 15,
-    backgroundColor:'#EBF9FF',
+    backgroundColor:'#EBF9FF'
   },
-  convertBody_inner: {
+  inputBody_inner: {
     padding: 5,
     margin: 5
   },
-  convertInput: {
+  input: {
     height: 20,
   },
-  textInputWrapper: {
-    borderStyle: 'solid',
-    borderColor: '#0485A9',
-    borderBottomWidth: 1
+  arithmeticButtons: {
+    flex: 0,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
-  convertResult: {
+  arithmeticButtonContainer: {
+    borderColor: '#0485A9',
+    borderWidth: 2,
+    margin: 5,
+    width: 60,
+    padding: 10,
+    height: 45
+  },
+  result: {
     paddingVertical: 5,
     borderStyle: 'solid',
     borderColor: '#0485A9',

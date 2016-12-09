@@ -10,7 +10,9 @@ import Page from './../Page';
 class AlgorithmBody extends Component {
   render() {
     return (
-      <Text>Algorithm body.</Text>
+      <View>
+        <Text>Sorry!</Text>
+      </View>
     )
   }
 };
