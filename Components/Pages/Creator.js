@@ -10,7 +10,18 @@ import Page from './../Page';
 class CreatorBody extends Component {
   render() {
     return (
-      <Text>Creator body.</Text>
+      <View style={styles.pageContainer}>
+        <Text style={styles.subtitle}>
+          Ethan Arrowood
+        </Text>
+        <Text>
+          {
+            'Student at Wentworth Institute of Technology \n' +
+            'Majoring in Computer Science. \n' +
+            'Minoring in Applied Mathematics & Business Management.'
+          }
+        </Text>
+      </View>
     )
   }
 };
@@ -18,7 +29,7 @@ export default class Creator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Creator'
+      title: 'Created By'
     }
   }
 

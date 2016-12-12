@@ -49,6 +49,11 @@ export const styles = StyleSheet.create({
     borderColor: '#0485A9',
     borderBottomWidth: 1
   },
+  pageContainer: {
+    flex: 0,
+    padding: 5,
+    alignItems: 'center'
+  },
   inputBody_outer: {
     flex: 0,
     width: 300,
@@ -84,5 +89,12 @@ export const styles = StyleSheet.create({
     borderStyle: 'solid',
     borderColor: '#0485A9',
     borderBottomWidth: 1
+  },
+  subcontainer: {
+    borderWidth: 1,
+    borderColor: '#0485A9',
+    padding: 5,
+    marginTop: -17,
+    marginBottom: 12,
   }
 });
